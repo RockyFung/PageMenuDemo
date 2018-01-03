@@ -15,6 +15,7 @@
 		5C74D1241FFC820E007BEA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C74D1221FFC820E007BEA1A /* LaunchScreen.storyboard */; };
 		5C74D12F1FFC820E007BEA1A /* PageMenuDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D12E1FFC820E007BEA1A /* PageMenuDemo2Tests.m */; };
 		5C74D13A1FFC820E007BEA1A /* PageMenuDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D1391FFC820E007BEA1A /* PageMenuDemo2UITests.m */; };
+		5C74D14A1FFC822F007BEA1A /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D1491FFC822F007BEA1A /* CAPSPageMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5C74D1351FFC820E007BEA1A /* PageMenuDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageMenuDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C74D1391FFC820E007BEA1A /* PageMenuDemo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageMenuDemo2UITests.m; sourceTree = "<group>"; };
 		5C74D13B1FFC820E007BEA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C74D1481FFC822F007BEA1A /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		5C74D1491FFC822F007BEA1A /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5C74D1131FFC820E007BEA1A /* PageMenuDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				5C74D1471FFC822F007BEA1A /* Obj-C Classes */,
 				5C74D1171FFC820E007BEA1A /* AppDelegate.h */,
 				5C74D1181FFC820E007BEA1A /* AppDelegate.m */,
 				5C74D11A1FFC820E007BEA1A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5C74D13B1FFC820E007BEA1A /* Info.plist */,
 			);
 			path = PageMenuDemo2UITests;
+			sourceTree = "<group>";
+		};
+		5C74D1471FFC822F007BEA1A /* Obj-C Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C74D1481FFC822F007BEA1A /* CAPSPageMenu.h */,
+				5C74D1491FFC822F007BEA1A /* CAPSPageMenu.m */,
+			);
+			path = "Obj-C Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				5C74D11C1FFC820E007BEA1A /* ViewController.m in Sources */,
 				5C74D1191FFC820E007BEA1A /* AppDelegate.m in Sources */,
+				5C74D14A1FFC822F007BEA1A /* CAPSPageMenu.m in Sources */,
 				5C74D1161FFC820E007BEA1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
